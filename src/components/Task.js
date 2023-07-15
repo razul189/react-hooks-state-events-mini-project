@@ -1,6 +1,8 @@
 import React from "react";
+import Task from "./Task"
 
-function Task() {
+
+function TaskComponent() {
   return (
     <div className="task">
       <div className="label">CATEGORY HERE</div>
@@ -10,4 +12,4 @@ function Task() {
   );
 }
 
-export default Task;
+export default TaskComponent;
